@@ -1,0 +1,160 @@
+body {
+    height: 5000px;
+}
+ul {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 25px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    color: black;
+    margin-top: 0%;
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
+}
+.navigation {
+    background-color: transparent;
+}
+.logo {
+    padding: 0%;
+    text-align: left;
+    height: 50px;
+    width: 50px;
+    flex-flow: row;
+    margin: 0px;
+    border: 0px;
+}
+.navBar {
+    vertical-align: top;
+    padding: 1%;
+    display: flex;
+    margin-top: 0%;
+    height: 50px;
+}
+.left {
+    list-style-type: none;
+    vertical-align: top;
+    padding: 1%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    margin-top: 0%;
+    height: 50px;
+}
+.right {
+    list-style-type: none;
+    vertical-align: top;
+    padding: 1%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    margin-top: 0%;
+    height: 50px;
+    flex-direction: row;
+}
+.heroSection {
+    flex-direction: row;
+    background-color: white;
+    align-content: flex-end;
+    height: 700;
+}
+#heroImg {
+    display: flex inline-block;
+    flex-direction: row;
+    width: 699px;
+    align-content: flex-start;
+}
+#heroTitle {
+    display: flex inline-block;
+    flex-direction: row;
+    width: 300px;
+}
+.aboutMe {
+    background-color: black;
+    height: 700;
+}
+#aboutTitle {
+    background-color: black;
+    color: white;
+    align-content: center;
+}
+#aboutBlurb {
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}
+.skillsSection {
+    background-color: white;
+    flex-direction: row;
+    height: 700;
+}
+#introSkills {
+    align-content: flex-start;
+}
+#listArea {
+    align-content: flex-start;
+}
+#listSkills {
+    width: 830px;
+}
+#leftList {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-direction: column;
+}
+#rightList {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#listImage {
+    display: flex;
+}
+.skillsListed {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+footer {
+    background-color: transparent;
+    padding: 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    color: black;
+    margin-bottom: 1%;
+    height: 100px;
+    list-style-type: none;
+}
+.leftFooter{
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: bottom;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    height: 100px;
+    list-style-type: none;
+}
+.rightFooter{
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: bottom;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    height: 100px;
+    list-style-type: none;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+#rightFooter{
+    align-items: flex-end;
+    list-style-type: none;
+}
