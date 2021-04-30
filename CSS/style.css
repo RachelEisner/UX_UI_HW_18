@@ -1,18 +1,6 @@
 body {
-    height: 5000px;
-}
-ul {
-    display: inline-block;
-    vertical-align: bottom;
-    padding: 25px;
-    display: flex;
-    flex-flow: row;
-    align-items: flex-end;
-    color: black;
-    margin-top: 0%;
-    height: 50px;
-    width: 50%;
-    margin-left: auto;
+    height: auto;
+    margin: auto;
 }
 .navigation {
     background-color: transparent;
@@ -33,18 +21,19 @@ ul {
     margin-top: 0%;
     height: 50px;
 }
-.left {
-    list-style-type: none;
+#leftNav {
     vertical-align: top;
     padding: 1%;
     display: flex;
     flex-flow: row;
-    align-items: flex-start;
+    align-items: space-between;
     margin-top: 0%;
     height: 50px;
 }
-.right {
+#left {
     list-style-type: none;
+}
+#rightNav {
     vertical-align: top;
     padding: 1%;
     display: flex;
@@ -54,26 +43,37 @@ ul {
     height: 50px;
     flex-direction: row;
 }
+#right {
+    list-style-type: none;
+}
 .heroSection {
     flex-direction: row;
     background-color: white;
     align-content: flex-end;
     height: 700;
 }
-#heroImg {
-    display: flex inline-block;
+.hero {
+    display: flex;
     flex-direction: row;
-    width: 699px;
-    align-content: flex-start;
+}
+#heroImg {
+    border: 3px;
+    width: 500px;
+    height: 500px;
 }
 #heroTitle {
-    display: flex inline-block;
-    flex-direction: row;
-    width: 300px;
+    border: 3px;
+    width: 500px;
+
 }
 .aboutMe {
     background-color: black;
     height: 700;
+    width: 1000px;
+}
+.about {
+    display: flex;
+    flex-direction: row;
 }
 #aboutTitle {
     background-color: black;
@@ -94,7 +94,8 @@ ul {
     align-content: flex-start;
 }
 #listArea {
-    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
 }
 #listSkills {
     width: 830px;
@@ -118,6 +119,19 @@ ul {
 .skillsListed {
     flex-wrap: wrap;
     flex-direction: column;
+}
+ul {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 25px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    color: black;
+    margin-top: 0%;
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
 }
 footer {
     background-color: transparent;
