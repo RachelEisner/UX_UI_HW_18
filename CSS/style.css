@@ -1,8 +1,11 @@
-
 body {
     height: auto;
     margin: 80px;
     margin-top: 0%;
+    margin-bottom: 0%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -122,7 +125,7 @@ p {
 .skillsSection {
     background-color: white;
     flex-direction: row;
-    height: 700px;
+    height: 730px;
     width: auto;
 }
 .skills {
@@ -197,7 +200,7 @@ footer {
     flex-direction: column;
     text-align: left;
     align-content: flex-start;
-    width: 570px;
+    width: 590px;
 }
 .topLeft{
     display: flex;
@@ -205,7 +208,6 @@ footer {
     vertical-align: top;
 }
 .bottomLeft{
-    font-size: 12px;
     align-items: flex-start;
     list-style-type: none; 
     display: flex;
@@ -214,6 +216,8 @@ footer {
     width: auto;
     align-content: flex-start;
     vertical-align: top;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .rightFooter{
     display: flex;
@@ -223,7 +227,7 @@ footer {
     flex-direction: column;
     text-align: right;
     align-content: flex-end;
-    width: 570px;
+    width: 590px;
 }
 .topRight{
     display: flex;
