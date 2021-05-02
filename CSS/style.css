@@ -79,13 +79,13 @@ p {
     align-items: flex-end;
 }
 .heroSection {
+    display: flex;
     flex-direction: row;
     background-color: white;
     height: 700;
-    padding-left: 275px; 
-    padding-right: 275px;
     justify-content: center;
     padding-top: 70px;
+    vertical-align: middle;
 }
 .hero {
     display: flex;
